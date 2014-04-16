@@ -2,17 +2,17 @@
 
 // Articles routes use articles controller
 var articles = require('../controllers/articles');
-var authorization = require('./middlewares/authorization');
+var authorization = require('../../../../server/routes/middlewares/authorization');
 
 // Article authorization helpers
 var hasAuthorization = function(req, res, next) {
-	if (req.article.user.id !== req.user.id) {
+    if (req.article.user.id !== req.user.id) {
         return res.send(401, 'User is not authorized');
     }
     next();
 };
 
-module.exports = function(app) {
+module.exports = function(Articles, app) {
 
     app.get('/articles', articles.all);
     app.post('/articles', authorization.requiresLogin, articles.create);

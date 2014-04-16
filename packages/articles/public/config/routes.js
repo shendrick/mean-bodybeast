@@ -1,7 +1,6 @@
 'use strict';
 
-//Setting up route
-angular.module('mean.articles').config(['$stateProvider', '$urlRouterProvider',
+angular.module('mean').config(['$stateProvider', '$urlRouterProvider',
     function($stateProvider, $urlRouterProvider) {
 
         //================================================
@@ -62,31 +61,37 @@ angular.module('mean.articles').config(['$stateProvider', '$urlRouterProvider',
         $stateProvider
             .state('all articles', {
                 url: '/articles',
-                templateUrl: 'public/articles/views/list.html',
+                templateUrl: 'articles/views/list.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
             .state('create article', {
                 url: '/articles/create',
-                templateUrl: 'public/articles/views/create.html',
+                templateUrl: 'articles/views/create.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
             .state('edit article', {
                 url: '/articles/:articleId/edit',
-                templateUrl: 'public/articles/views/edit.html',
+                templateUrl: 'articles/views/edit.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
             .state('article by id', {
                 url: '/articles/:articleId',
-                templateUrl: 'public/articles/views/view.html',
+                templateUrl: 'articles/views/view.html',
                 resolve: {
                     loggedin: checkLoggedin
                 }
             })
     }
 ])
+
+    .config(['$locationProvider',
+        function($locationProvider) {
+            $locationProvider.hashPrefix('!');
+        }
+    ]);

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mean.articles').controller('ArticlesController', ['$scope', '$stateParams', '$location', 'Global', 'Articles', function ($scope, $stateParams, $location, Global, Articles) {
+angular.module('mean').controller('ArticlesController', ['$scope', '$stateParams', '$location', 'Global', 'Articles', function ($scope, $stateParams, $location, Global, Articles) {
     $scope.global = Global;
 
     $scope.create = function() {
@@ -57,7 +57,7 @@ angular.module('mean.articles').controller('ArticlesController', ['$scope', '$st
         Articles.query(function(articles) {
 
             for (var i=0; i<articles.length; i++) {
-                if (articles[i].user._id === $scope.global.user._id) {
+                if (articles[i].user === $scope.global.user._id) {
                     $scope.articles[j] = articles[i];
                     j = j+1;
                 }
