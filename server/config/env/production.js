@@ -1,11 +1,8 @@
 'use strict';
 
 module.exports = {
-<<<<<<< HEAD
-    db: 'mongodb://localhost/mean',
-=======
+
     db: 'mongodb://localhost/mean-prod',
->>>>>>> refs/heads/mean.io
     app: {
         name: 'MEAN - A Modern Stack - Production'
     },
