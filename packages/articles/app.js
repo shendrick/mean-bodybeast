@@ -19,11 +19,19 @@ Articles.register(function(app, auth, database) {
 
     //We are adding a link to the main menu for all authenticated users
     Articles.menus.add({
-      title: "articles example page",
-      link: "articles example page",
-      roles: ["authenticated"],
-      menu: "main"
-    })
+        'roles': ['authenticated'],
+        'title': 'Articles',
+        'link': 'all articles',
+        'menu': 'main'
+     });
+    Articles.menus.add({
+        'roles': ['authenticated'],
+        'title': 'Create New Article',
+        'link': 'create article',
+        'menu': 'main'
+     });
+
+
 
     /*
     //Uncomment to use. Requires meanio@0.3.7 or above
