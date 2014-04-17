@@ -3,7 +3,11 @@
 module.exports = {
     db: 'mongodb://localhost/mean-dev',
     app: {
+<<<<<<< HEAD
         name: 'MEAN - A Modern Stack - Development'
+=======
+        name: 'MEAN - FullStack JS - Development'
+>>>>>>> refs/heads/mean.io
     },
     facebook: {
         clientID: 'APP_ID',
