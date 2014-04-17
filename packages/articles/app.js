@@ -31,7 +31,7 @@ Articles.register(function(app, auth, database) {
         'menu': 'main'
      });
 
-
+    Articles.aggregateAsset('css', 'articles.css');
 
     /*
     //Uncomment to use. Requires meanio@0.3.7 or above
