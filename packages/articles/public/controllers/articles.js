@@ -50,21 +50,6 @@ angular.module('mean').controller('ArticlesController', ['$scope', '$stateParams
         });
     };
 
-    $scope.findMine = function() {
-        var j = 0;
-        $scope.articles = [];
-
-        Articles.query(function(articles) {
-
-            for (var i=0; i<articles.length; i++) {
-                if (articles[i].user === $scope.global.user._id) {
-                    $scope.articles[j] = articles[i];
-                    j = j+1;
-                }
-            }
-        });
-    };
-
     $scope.findOne = function() {
         Articles.get({
             articleId: $stateParams.articleId
