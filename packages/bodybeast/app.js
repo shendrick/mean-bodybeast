@@ -19,8 +19,8 @@ Bodybeast.register(function(app, auth, database) {
 
     //We are adding a link to the main menu for all authenticated users
     Bodybeast.menus.add({
-      title: "bodybeast example page",
-      link: "bodybeast example page",
+      title: "Rounds",
+      link: "rounds",
       roles: ["authenticated"],
       menu: "main"
     })
