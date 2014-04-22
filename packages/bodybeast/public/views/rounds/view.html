@@ -1,0 +1,14 @@
+<section data-ng-controller="RoundsController" data-ng-init="findOne()">
+    <span>{{round.date | date:'medium'}}</span> /
+    <span>{{round.schedule}}</span>
+    <h2>{{round.title}}</h2>
+    <div data-ng-show="global.user._id == round.user._id">
+        <a class="btn" href="/#!/rounds/{{round._id}}/edit">
+            <i class="glyphicon glyphicon-edit"></i>
+        </a>
+        <a class="btn" data-ng-click="remove();">
+            <i class="glyphicon glyphicon-trash"></i>
+        </a>
+    </div>
+    <div data-ng-controller="SchedulesController">{{schedule.name}}</div>
+</section>

@@ -1,0 +1,9 @@
+<section data-ng-controller="RoundsController" data-ng-init="find()">
+    <ul class="rounds unstyled">
+        <li data-ng-repeat="round in rounds">
+            <h2><a data-ng-href="#!/rounds/{{round._id}}">{{round.date|date:medium}}</a></h2>
+            <div data-ng-controller="SchedulesController" data-ng-init="findOne(round.schedule)">{{schedule.name}}</div>
+        </li>
+    </ul>
+    <h1 data-ng-hide="!rounds || rounds.length">No rounds yet. <br> Why don't you <a href="/#!/rounds/create">Create One</a>?</h1>
+</section>

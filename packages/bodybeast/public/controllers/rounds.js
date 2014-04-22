@@ -1,20 +1,25 @@
 'use strict';
 
-angular.module('mean').controller('RoundsController', ['$scope', 'Global',
-  function($scope, Global, Rounds) {
+angular.module('mean').controller('RoundsController', ['$scope', '$stateParams', '$location', 'Global', 'Rounds', function ($scope, $stateParams, $location, Global, Rounds) {
       $scope.global = Global;
 
       $scope.create = function() {
           var round = new Rounds({
-              title: this.title,
-              content: this.content
+              'date': this.date,
+              'schedule': this.schedule.id,
+              'activeWeek': 1,
+              'activePhase': 1
+
+
           });
          round.$save(function(response) {
               $location.path('rounds/' + response._id);
           });
 
-          this.title = '';
-          this.content = '';
+          var now = new Date();
+
+          this.date = dateTime('now');
+          this.schedule = 0;
       };
 
       $scope.remove = function(round) {
@@ -40,22 +45,22 @@ angular.module('mean').controller('RoundsController', ['$scope', 'Global',
           }
           round.updated.push(new Date().getTime());
 
-          article.$update(function() {
+          round.$update(function() {
               $location.path('round/' + round._id);
           });
       };
 
       $scope.find = function() {
           Rounds.query(function(rounds) {
-              $scope.articles = rounds;
+              $scope.rounds = rounds;
           });
       };
 
       $scope.findOne = function() {
           Rounds.get({
-              articleId: $stateParams.articleId
-          }, function(article) {
-              $scope.article = article;
+              roundId: $stateParams.roundId
+          }, function(round) {
+              $scope.round = round;
           });
       };
 

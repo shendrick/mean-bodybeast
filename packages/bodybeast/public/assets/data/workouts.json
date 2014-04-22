@@ -1,0 +1,2571 @@
+[
+    {
+        "id": 18,
+        "name": "Build: Chest / Tris",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Chest Press",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Chest Press",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Chest Press",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Chest Press",
+                        "label": "8 rep.",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "exercise": "Incline Dumbbell Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 3
+                    },
+                    {
+                        "exercise": "Incline Dumbbell Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Giant Set",
+                "reps": [
+                    {
+                        "exercise": "Close Grip Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "exercise": "Partial Chest Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "exercise": "Decline Push Up",
+                        "count": true,
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 6
+                    },
+                    {
+                        "exercise": "Close Grip Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "exercise": "Partial Chest Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "exercise": "Decline Push Up",
+                        "count": true,
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 6
+                    },
+                    {
+                        "exercise": "Close Grip Press",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "exercise": "Partial Chest Fly",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "exercise": "Decline Push Up",
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "exercise": "Tricep Extension",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "exercise": "Tricep Extension",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "exercise": "Tricep Extension",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 7
+                    },
+                    {
+                        "exercise": "Tricep Extension",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 7
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "exercise": "Single Arm Kickback: Left",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 8
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Right",
+                        "weight": true,
+                        "count": true,
+                        "label": "15 rep.",
+                        "id": 9
+                    },
+                    {
+                        "exercise": "Tricep Push-Up",
+                        "count": true,
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 10
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Left",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 8
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Right",
+                        "weight": true,
+                        "count": true,
+                        "label": "12 rep.",
+                        "id": 9
+                    },
+                    {
+                        "exercise": "Tricep Push-Up",
+                        "count": true,
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 10
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Left",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 8
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Left",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 8
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Right",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 9
+                    },
+                    {
+                        "exercise": "Single Arm Kickback: Right",
+                        "weight": true,
+                        "count": true,
+                        "label": "8 rep.",
+                        "id": 9
+                    },
+                    {
+                        "exercise": "Tricep Push-Up",
+                        "count": true,
+                        "label": "8 rep.",
+                        "repBeforeDrop": true,
+                        "id": 10
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "exercise": "Dips on Bench",
+                        "count": true,
+                        "label": "60 sec.",
+                        "id": 11
+                    },
+                    {
+                        "exercise": "In and Outs",
+                        "count": true,
+                        "label": "60 sec.",
+                        "id": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Build: Back / Bis",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Deadlift",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Deadlift",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Deadlift",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Deadlift",
+                        "label": "8 rep.",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Pull-Over",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Ups",
+                        "label": "10 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Pull-Over",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Ups",
+                        "label": "10 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Dumbbell Pull-Over",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Ups",
+                        "label": "10 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Giant Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "EZ Bar Row",
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Reverse Fly",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 7
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "EZ Bar Row",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Reverse Fly",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 7
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "EZ Bar Row",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Reverse Fly",
+                        "label": "8 rep.",
+                        "id": 7
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "exercise": "Close-Grip Chin-Up",
+                        "label": "30 sec.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Close-Grip Chin-Up",
+                        "label": "30 sec.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Close-Grip Chin-Up",
+                        "label": "30 sec.",
+                        "id": 8
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Seated Bicep Curl",
+                        "label": "15 rep.",
+                        "id": 9
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Seated Bicep Curl",
+                        "label": "12 rep.",
+                        "id": 9
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Seated Bicep Curl",
+                        "label": "8 rep.",
+                        "id": 9
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Seated Bicep Curl",
+                        "label": "8 rep.",
+                        "id": 9
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "1,1,2 Hammer Curl",
+                        "label": "15 rep.",
+                        "id": 10
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "1,1,2 Hammer Curl",
+                        "label": "12 rep.",
+                        "id": 10
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "1,1,2 Hammer Curl",
+                        "label": "8 rep.",
+                        "id": 10
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Neutral EZ Bar Curl",
+                        "label": "15 rep.",
+                        "id": 11
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Neutral EZ Bar Curl",
+                        "label": "12 rep.",
+                        "id": 11
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Neutral EZ Bar Curl",
+                        "label": "8 rep.",
+                        "id": 11
+                    },
+                    {
+                        "weight": true,
+                        "count": true,
+                        "exercise": "Neutral EZ Bar Curl",
+                        "label": "8 rep.",
+                        "id": 11
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "exercise": "Airplane Cobra",
+                        "label": "30 sec.",
+                        "id": 12
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Airplane Cobra",
+                        "label": "30 sec.",
+                        "id": 12
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Build: Legs",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sumo Squat",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sumo Squat",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sumo Squat",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sumo Squat",
+                        "label": "8 rep.",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alternating Lunge",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Right",
+                        "label": "15 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Left",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alternating Lunge",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Right",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Left",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alternating Lunge",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Right",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Step-Up to Reverse Lunge: Left",
+                        "label": "8 rep.",
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Giant Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Parallel Squat",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Left",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Right",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Left",
+                        "label": "15 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Right",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 9
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Parallel Squat",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Left",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Right",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Left",
+                        "label": "12 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Right",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 9
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Parallel Squat",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Left",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Bulgarian Squat: Right",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Left",
+                        "label": "8 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Straight Leg Deadlift: Right",
+                        "label": "8 rep.",
+                        "id": 9
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Giant Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Single Leg Calf Raise: Left",
+                        "label": "30 sec.",
+                        "id": 10
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Single Leg Calf Raise: Right",
+                        "label": "30 sec.",
+                        "id": 11
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Seated Calf Raise",
+                        "label": "30 sec.",
+                        "id":12
+                    },
+                    {
+                        "count": true,
+                        "exercise": "In and Outs",
+                        "label": "30 sec.",
+                        "breakAfter": true,
+                        "id": 13
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Single Leg Calf Raise: Left",
+                        "label": "30 sec.",
+                        "id": 10
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Single Leg Calf Raise: Right",
+                        "label": "30 sec.",
+                        "id": 11
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Seated Calf Raise",
+                        "label": "30 sec.",
+                        "id": 12
+                    },
+                    {
+                        "count": true,
+                        "exercise": "In and Outs",
+                        "label": "30 sec.",
+                        "id": 13
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Build: Shoulders",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Shoulder Press",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Shoulder Press",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Shoulder Press",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Shoulder Press",
+                        "label": "8 rep.",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Giant Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "EZ Bar Underhand Press",
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "1,1,2 Front Raise",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Rear Delt Raise",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "EZ Bar Underhand Press",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "1,1,2 Front Raise",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Rear Delt Raise",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "EZ Bar Underhand Press",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "1,1,2 Front Raise",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Rear Delt Raise",
+                        "label": "8 rep.",
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Dumbbell Shrug",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Dumbbell Scap Trap",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Dumbbell Shrug",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Dumbbell Scap Trap",
+                        "label": "12 rep.",
+                        "breakAfter": true,
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Dumbbell Shrug",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Dumbbell Shrug",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Dumbbell Scap Trap",
+                        "label": "8 rep.",
+                        "id": 8
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sagi Six-Way",
+                        "label": "12 rep.",
+                        "id": 9
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Tuck &amp; Roll",
+                        "label": "15 rep.",
+                        "breakAfter": true,
+                        "id": 10
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Sagi Six-Way",
+                        "label": "8 rep.",
+                        "id": 9
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Tuck &amp; Roll",
+                        "label": "15 rep.",
+                        "id": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Build: Abs",
+        "sets": [
+            {
+                "reps": [
+                    {
+                        "complete": true,
+                        "exercise": "Abs Complete",
+                        "id": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Build: Cardio",
+        "sets": [
+            {
+                "reps": [
+                    {
+                        "complete": true,
+                        "exercise": "Cardio Complete",
+                        "id": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Bulk: Arms",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "15 rep.",
+                        "id": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Extension",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Extension",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Extension",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Extension",
+                        "label": "8 rep.",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Force Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Wide EZ Bar Curl",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Wide EZ Bar Curl",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Wide EZ Bar Curl",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Wide EZ Bar Curl",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Wide EZ Bar Curl",
+                        "label": "5 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Skull Crusher",
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Skull Crusher",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Skull Crusher",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Skull Crusher",
+                        "label": "8 rep.",
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Left",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Hammer Curl: Right",
+                        "label": "15 rep.",
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "15 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "12 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "8 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Right",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "8 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "12 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Tricep Kickback: Left",
+                        "label": "15 rep.",
+                        "id": 8
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Weighted Crunch ",
+                        "label": "30 rep.",
+                        "id": 9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Bulk: Back",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Pull-Over",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Up",
+                        "label": "10 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Pull-Over",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Up",
+                        "label": "10 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Pull-Over",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Pull-Over",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Pull-Up",
+                        "label": "10 rep.",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "15 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Grip Row",
+                        "label": "15 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Force Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "5 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "5 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "5 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "5 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Left",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "One-Arm Row: Right",
+                        "label": "5 rep.",
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Deadlift",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Deadlift",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Deadlift",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Deadlift",
+                        "label": "8 rep.",
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Plank Rotation",
+                        "label": "30 sec.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Plank Rotation",
+                        "label": "30 sec.",
+                        "id": 8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Bulk: Chest",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Fly",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Fly",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Fly",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "8 rep.",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+
+                "id": 2,
+                "name": "Force Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Chest Press w/ Rotation",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Chest Press w/ Rotation",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Chest Press w/ Rotation",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Chest Press w/ Rotation",
+                        "label": "5 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Chest Press w/ Rotation",
+                        "label": "5 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Standing Curl",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Incline Press",
+                        "label": "15 rep.",
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Combo Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Close-Grip Press to Fly",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Close-Grip Press to Fly",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Close-Grip Press to Fly",
+                        "label": "8 rep.",
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Multi Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "exercise": "Decline Push-Up",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Cobra to Airplane",
+                        "label": "10 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Decline Push-Up",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Russian Twist",
+                        "label": "30 sec.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Decline Push-Up",
+                        "label": "8 rep.",
+                        "id": 6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Bulk: Legs",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Single Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Left",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Right",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Left",
+                        "label": "10 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Right",
+                        "label": "10 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Left",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Front to Back Lunge: Right",
+                        "label": "8 rep.",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "15 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Squats",
+                        "label": "15 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Force Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Full to 1/2 Sumo Squat",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Full to 1/2 Sumo Squat",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Full to 1/2 Sumo Squat",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Full to 1/2 Sumo Squat",
+                        "label": "5 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Full to 1/2 Sumo Squat",
+                        "label": "5 rep.",
+                        "id": 4
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "8 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "12 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Right",
+                        "label": "15 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Split Squat w/ EZ Bar: Left",
+                        "label": "15 rep.",
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Stiff Leg Deadlift",
+                        "label": "15 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Side Squat",
+                        "label": "10 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Stiff Leg Deadlift",
+                        "label": "12 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Side Squat",
+                        "label": "10 rep.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Stiff Leg Deadlift",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Stiff Leg Deadlift",
+                        "label": "8 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Side Squat",
+                        "label": "10 rep.",
+                        "id": 8
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Calf Raise",
+                        "label": "50 rep.",
+                        "id": 9
+                    },
+                    {
+                        "complete": true,
+                        "exercise": "Beast Abs",
+                        "label": "30 sec.",
+                        "id": 10
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Calf Raise",
+                        "label": "50 rep.",
+                        "id": 9
+                    },
+                    {
+                        "complete": true,
+                        "exercise": "Beast Abs",
+                        "label": "30 sec.",
+                        "id": 10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Bulk: Shoulders",
+        "sets": [
+            {
+                "id": 1,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "15 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Arnold Press",
+                        "label": "15 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "12 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Arnold Press",
+                        "label": "12 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Lateral Raise",
+                        "label": "8 rep.",
+                        "id": 1
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Arnold Press",
+                        "label": "8 rep.",
+                        "id": 2
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Arnold Press",
+                        "label": "8 rep.",
+                        "id": 2
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "15 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "8 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "12 rep.",
+                        "id": 3
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Upright Row",
+                        "label": "15 rep.",
+                        "id": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Front Raise",
+                        "label": "15 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Plate Twist-Twist",
+                        "label": "10 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Front Raise",
+                        "label": "12 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Plate Twist-Twist",
+                        "label": "10 rep.",
+                        "id": 5
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Alt. Front Raise",
+                        "label": "8 rep.",
+                        "id": 4
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Plate Twist-Twist",
+                        "label": "10 rep.",
+                        "id": 5
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Progressive Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "15 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "8 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "12 rep.",
+                        "id": 6
+                    },
+                    {
+                        "count": true,
+                        "weight": true,
+                        "exercise": "Reverse Fly",
+                        "label": "15 rep.",
+                        "id": 6
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Super Set",
+                "reps": [
+                    {
+                        "count": true,
+                        "exercise": "Superman Stretch",
+                        "label": "10 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Plank Twist-Twist",
+                        "label": "30 sec.",
+                        "id": 8
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Superman Stretch",
+                        "label": "10 rep.",
+                        "id": 7
+                    },
+                    {
+                        "count": true,
+                        "exercise": "Plank Twist-Twist",
+                        "label": "30 sec.",
+                        "id": 8
+                    }
+                ]
+            }
+        ]
+    }
+]

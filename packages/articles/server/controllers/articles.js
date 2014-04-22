@@ -90,6 +90,7 @@ exports.show = function(req, res) {
 /**
  * List of Articles
  */
+/*
 exports.all = function(req, res) {
     var query = {};
     if (req.params.category) {
@@ -97,6 +98,34 @@ exports.all = function(req, res) {
             $in: [req.params.category]
         };
     }
+
+    Article.find(query).sort('-created').exec(function(err, articles) {
+        if (err) {
+            res.render('error', {
+                status: 500
+            });
+        } else {
+            res.jsonp(articles);
+        }
+    });
+};
+*/
+
+
+
+/**
+ * List of User Articles
+ */
+exports.mine = function(req, res) {
+    var query = {};
+    if (req.params.category) {
+        query.categories = {
+            $in: [req.params.category]
+        };
+    }
+
+    query.user = req.session.passport.user;
+
     Article.find(query).sort('-created').exec(function(err, articles) {
         if (err) {
             res.render('error', {

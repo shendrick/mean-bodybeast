@@ -1,24 +1,26 @@
 'use strict';
 
-// The Package is past automatically as first parameter
-module.exports = function(Bodybeast, app, auth, database) {
+// Articles routes use articles controller
+var rounds = require('../controllers/rounds');
+var authorization = require('../../../../server/routes/middlewares/authorization');
 
-    app.get('/bodybeast/example/anyone', function (req,res,next) {
-      res.send('Anyone can access this');
-    });
+// Article authorization helpers
+var hasAuthorization = function(req, res, next) {
+    if (req.round.user.id !== req.user.id) {
+        return res.send(401, 'User is not authorized');
+    }
+    next();
+};
 
-    app.get('/bodybeast/example/auth',auth.requiresLogin, function (req,res,next) {
-      res.send('Only authenticated users can access this');
-    });
+module.exports = function(Rounds, app) {
 
-    app.get('/bodybeast/example/admin',auth.requiresAdmin, function (req,res,next) {
-      res.send('Only users with Admin role can access this');
-    });    
+    app.get('/rounds', rounds.mine);
+    app.post('/rounds', authorization.requiresLogin, rounds.create);
+    app.get('/rounds/:roundId', rounds.show);
+    app.put('/rounds/:roundId', authorization.requiresLogin, hasAuthorization, rounds.update);
+    app.del('/rounds/:roundId', authorization.requiresLogin, hasAuthorization, rounds.destroy);
 
-    app.get('/bodybeast/example/render', function (req,res,next) {
-      Bodybeast.render('index', {package:'bodybeast'}, function (err, html) {
-        //Rendering a view from the Package server/views
-        res.send(html);
-      })
-    })
+    // Finish with setting up the articleId param
+    app.param('roundId', rounds.round);
+
 };
